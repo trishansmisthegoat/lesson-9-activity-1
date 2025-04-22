@@ -17,4 +17,30 @@ ul>li:hover {
     color: blue;
 }
 
-ul>li:
+ul>li:before {
+    content:"🚀" ;
+}
+
+a:after {
+    content: "🚀";
+}
+
+a {
+    color: blue;
+    text-decoration: double;
+}
+
+a:hover {
+    color:chartreuse
+}
+
+p,
+h1 {
+    /*sibling selector*/
+    background-color: brown;
+}
+
+p::first-letter {
+    color: black;
+    font-size: 50px;
+}
